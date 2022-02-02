@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piano {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    color: #202020;
+    letter-spacing: 10px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #000;
+}
+
+.teclas {
+    display: flex;
+    justify-content: center;
+}
+
+.teclas > div {
+    width: 20%;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.teclas > div:active {
+    background-color: #959595;
+}
